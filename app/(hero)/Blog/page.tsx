@@ -7,13 +7,13 @@ import {Metadata} from "next";
 
 
 export const metadata: Metadata = {
-    title: 'Reliability',
+    title: 'Blog',
 }
 
 function Page() {
     return (
         <div>
-            <Hero imgUrl={ReliabilityImage} altText={'ReliabilityImage'} content={'Reliability'}/>
+            <Hero imgUrl={ReliabilityImage} altText={'ReliabilityImage'} content={'博客主页'}/>
         </div>
     );
 }

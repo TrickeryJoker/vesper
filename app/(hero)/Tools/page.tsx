@@ -2,7 +2,6 @@ import React from 'react';
 import Hero from "@/components/hero";
 import ScaleImage from "/public/scale.jpg";
 import {Metadata} from "next";
-import {notFound} from "next/navigation";
 
 
 
@@ -14,7 +13,7 @@ export const metadata: Metadata = {
 function Page() {
     return (
         <div>
-            <Hero imgUrl={ScaleImage} altText={'ScaleImage'} content={'Scale'}/>
+            <Hero imgUrl={ScaleImage} altText={'ScaleImage'} content={'工具箱'}/>
         </div>
     );
 }

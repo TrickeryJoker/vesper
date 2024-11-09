@@ -7,12 +7,12 @@ import {Metadata} from "next";
 
 
 export const metadata: Metadata = {
-    title: 'Performance',
+    title: 'Vps',
 }
 function Page() {
     return (
         <div>
-            <Hero imgUrl={PerformanceImage} altText={'PerformanceImage'} content={'Performance'}/>
+            <Hero imgUrl={PerformanceImage} altText={'PerformanceImage'} content={'哪吒监控'}/>
         </div>
     );
 }

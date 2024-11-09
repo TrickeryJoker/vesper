@@ -5,9 +5,9 @@ import {usePathname} from "next/navigation";
 
 
 const linkData = [
-    {title: "Performance", href: "/Performance"},
-    {title: "Reliability", href: "/Reliability"},
-    {title: "Scale", href: "/Scale"},
+    {title: "Vps", href: "/Vps"},
+    {title: "Blog", href: "/Blog"},
+    {title: "Tools", href: "/Tools"},
 ]
 
 
