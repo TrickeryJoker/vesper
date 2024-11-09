@@ -1,6 +1,5 @@
 import React from 'react';
 import Image, {StaticImageData} from "next/image";
-import ImageHome from "/public/home.jpg";
 
 
 interface Iprops {

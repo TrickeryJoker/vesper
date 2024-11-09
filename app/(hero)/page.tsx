@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from "next/image";
 import ImageHome from "/public/home.jpg";
 import Hero from "@/components/hero";
 import {Metadata} from "next";
